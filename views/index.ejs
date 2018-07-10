@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>Fruits</h1>
+  <ul>
+    
+  <% for (var i = 0; i < fruits.length; i++) { -%>
+   <li>  <a href="/fruits/<%= i %>"> <%= fruits[i].name%> </a>
+  <% } -%>
+  </li>
+  </ul>
+
+</body>
+</html>
